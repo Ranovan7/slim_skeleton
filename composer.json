@@ -1,0 +1,20 @@
+{
+    "name": "primaweb-slim",
+    "authors": [
+        {
+            "name": "Romy Ranovan",
+            "email": "romyranovan@gmail.com",
+            "homepage": "http://github.com/Ranovan7"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.1",
+        "vlucas/phpdotenv": "^2.4",
+        "slim/twig-view": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
